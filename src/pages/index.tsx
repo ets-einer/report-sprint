@@ -20,7 +20,7 @@ export default function Home() {
               <Image
                 src="/einer.svg"
                 alt="Einer Logo"
-                className={styles.vercelLogo}
+                className={`${styles.vercelLogo}`}
                 width={500}
                 height={40}
                 priority
@@ -30,40 +30,34 @@ export default function Home() {
         <h1 className={`${inter.className} ${styles.SprintReport}`}>Sprint 1 Report</h1>
         <div className={styles.grid}>
         <div className={`${styles.thirteen} ${styles.A}`}>
-            <h1 className={inter.className}>Hello</h1>
+            <h1 className={inter.className}>Dado 1</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.B}`}>
-            <h1 className={inter.className}>Hello</h1>
+            <h1 className={inter.className}>Dado 2</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.C}`}>
-            <h1 className={inter.className}>Hello</h1>
+            <h1 className={inter.className}>Dado 3</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.D}`}>
-            <h1 className={inter.className}>Hello</h1>
+            <h1 className={inter.className}>Dado 4</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.E}`}>
-            <h1 className={inter.className}>Hello</h1>
-          </div>
-          <div className={`${styles.thirteen} ${styles.E}`}>
-            <h1 className={inter.className}>Hello</h1>
+            <h1 className={inter.className}>Grafico 1</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.F}`}>
-            <h1 className={inter.className}>Hello</h1>
+            <h1 className={inter.className}>Einer</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.G}`}>
-            <h1 className={inter.className}>Hello</h1>
+            <h1 className={inter.className}>Grafico 2</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.H}`}>
-            <h1 className={inter.className}>Hello</h1>
+            <h1 className={inter.className}>Dado 5</h1>
           </div>
            <div className={`${styles.thirteen} ${styles.I}`}>
-            <h1 className={inter.className}>Hello</h1>
+            <h1 className={inter.className}>Dado 6</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.J}`}>
-            <h1 className={inter.className}>Hello</h1>
-          </div>
-          <div className={`${styles.thirteen} ${styles.G}`}>
-            <h1 className={inter.className}>Hello</h1>
+            <h1 className={inter.className}>Dado 7</h1>
           </div>
         </div>
       </main>
