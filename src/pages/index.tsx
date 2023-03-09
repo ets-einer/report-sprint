@@ -72,8 +72,8 @@ export default function Home() {
               {contribs.map(c => <Image src={c} alt="contrib image" width={40} height={40} style={{ filter: 'drop-shadow(0 0 0.15rem blue)', borderRadius: '9999px' }} /> )}
             </div>
           </div>
-          <div className={`${styles.F}`}>
-            <Image src="einer-only.svg" alt="Einer" width={385} height={175} />
+          <div className={`${styles.F} ${styles.fourteen}`}>
+            <Image src="einer-only.svg" alt="Einer" width={325} height={175} />
           </div>
           <div className={`${styles.thirteen} ${styles.G}`}>
             <Image src="prototype.svg" alt="rust icon" width={350} height={250} style={{ filter: 'drop-shadow(0 0 0.1rem white)', paddingBottom: '1rem' }} />

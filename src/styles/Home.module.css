@@ -239,6 +239,45 @@
   background-clip: content-box;
 }
 
+.fourteen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 50px;
+  transform: translateZ(0);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.fourteen::before,
+.fourteen::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+/* Conic Gradient Animation */
+.fourteen::before {
+  animation: 6s rotate linear infinite;
+  width: 200%;
+  height: 200%;
+  background: var(--tile-border);
+}
+
+/* Inner Square */
+.fourteen::after {
+  inset: 0;
+  padding: 1px;
+  border-radius: var(--border-radius);
+  background: linear-gradient(
+    to bottom right,
+    #082238,
+    #0c1825
+  );
+  box-shadow: inset 0px 0px 10px #000000de;
+  background-clip: content-box;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
