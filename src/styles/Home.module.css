@@ -146,10 +146,19 @@
 }
 .F{
   grid-area: f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .G{
   grid-area: g;
+  font-size: .8rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
+
 .H{
   grid-area: h;
   font-size: .8rem;

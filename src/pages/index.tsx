@@ -5,6 +5,25 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
+const contribs = [
+  'https://avatars.githubusercontent.com/u/39712525?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/67555849?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/62768034?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/100293881?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/98928629?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/69852751?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/100098755?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/57506257?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/100294117?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/112044620?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/100283966?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/56888067?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/89698942?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/100294107?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/58307012?s=96&v=4',
+  'https://avatars.githubusercontent.com/u/93823300?s=96&v=4'
+]
+
 export default function Home() {
   return (
     <>
@@ -46,13 +65,19 @@ export default function Home() {
             <h1 className={inter.className}>Armazenamento, compressão e otimização de arquivos</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.E}`}>
-            <h1 className={inter.className}>Grafico 1</h1>
+            <h2 className={`${inter.className}`} style={{ marginRight: '3rem'}}>
+              Contribuidores
+            </h2>
+            <div style={{ display: 'flex', gap: '.5rem', flexWrap: 'wrap', maxWidth: '60%'}}>
+              {contribs.map(c => <Image src={c} alt="contrib image" width={40} height={40} style={{ filter: 'drop-shadow(0 0 0.15rem blue)', borderRadius: '9999px' }} /> )}
+            </div>
           </div>
-          <div className={`${styles.thirteen} ${styles.F}`}>
-            <h1 className={inter.className}>Einer</h1>
+          <div className={`${styles.F}`}>
+            <Image src="einer-only.svg" alt="Einer" width={385} height={175} />
           </div>
           <div className={`${styles.thirteen} ${styles.G}`}>
-            <h1 className={inter.className}>Grafico 2</h1>
+            <Image src="prototype.svg" alt="rust icon" width={350} height={250} style={{ filter: 'drop-shadow(0 0 0.1rem white)', paddingBottom: '1rem' }} />
+            <h1 className={inter.className}>Prototipagem do App</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.H}`}>
             <Image src="terminal.svg" alt="terminal icon" width={45} height={45} />
