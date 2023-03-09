@@ -30,16 +30,20 @@ export default function Home() {
         <h1 className={`${inter.className} ${styles.SprintReport}`}>Sprint 1 Report</h1>
         <div className={styles.grid}>
         <div className={`${styles.thirteen} ${styles.A}`}>
-            <h1 className={inter.className}>Dado 1</h1>
+            <h1 className={inter.className}>+500 <Image src="/gh.svg" alt="Gh logo" width={30} height={30} /></h1>
+            <h3 className={inter.className}>Contribuições em 10 repositórios</h3>
           </div>
           <div className={`${styles.thirteen} ${styles.B}`}>
-            <h1 className={inter.className}>Dado 2</h1>
+            <Image src="vitest.svg" alt="vitest logo" style={{ filter: 'drop-shadow(0 0 0.5rem yellow)' }} width={50} height={50} />
+            <h1 className={inter.className}>Sistema de testes e controle de qualidade com Integração Contínua</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.C}`}>
-            <h1 className={inter.className}>Dado 3</h1>
+            <Image src="lock.svg" alt="lock icon" width={45} height={45} />
+            <h1 className={inter.className}>Autenticação unificada entre plataformas</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.D}`}>
-            <h1 className={inter.className}>Dado 4</h1>
+            <Image src="folders.svg" alt="lock icon" width={45} height={45} />
+            <h1 className={inter.className}>Armazenamento, compressão e otimização de arquivos</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.E}`}>
             <h1 className={inter.className}>Grafico 1</h1>
@@ -51,13 +55,23 @@ export default function Home() {
             <h1 className={inter.className}>Grafico 2</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.H}`}>
-            <h1 className={inter.className}>Dado 5</h1>
+            <Image src="terminal.svg" alt="terminal icon" width={45} height={45} />
+            <h1 className={inter.className}>Serviço de Log tracking centralizado</h1>
           </div>
            <div className={`${styles.thirteen} ${styles.I}`}>
-            <h1 className={inter.className}>Dado 6</h1>
+            <div>
+              <Image src="rust.svg" alt="rust icon" width={65} height={65} />
+              <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" style={{ filter: 'drop-shadow(0 0 0.3rem blue)' }} alt="Ts logo" width={45} height={45} />
+            </div>
+            <h1 className={inter.className}>Einer Toolchain + SDKs para desenvolvedores</h1>
           </div>
           <div className={`${styles.thirteen} ${styles.J}`}>
-            <h1 className={inter.className}>Dado 7</h1>
+            <div>
+              <Image src="vsdia.svg" alt="vsdia icon" width={45} height={45} style={{ filter: 'drop-shadow(0 0 0.3rem green)' }} />
+              <Image src="planner.svg" alt="planner icon" width={45} height={45} style={{ filter: 'drop-shadow(0 0 0.3rem dodgerblue)' }} />
+              <Image src="borum.svg" alt="borum icon" width={45} height={45} style={{ filter: 'drop-shadow(0 0 0.3rem green)' }} />
+            </div>
+            <h1 className={inter.className}>Versão beta em breve</h1>
           </div>
         </div>
       </main>
