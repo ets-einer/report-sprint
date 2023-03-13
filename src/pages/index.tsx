@@ -69,7 +69,7 @@ export default function Home() {
               Contribuidores
             </h2>
             <div style={{ display: 'flex', gap: '.5rem', flexWrap: 'wrap', maxWidth: '60%'}}>
-              {contribs.map(c => <Image src={c} alt="contrib image" width={40} height={40} style={{ filter: 'drop-shadow(0 0 0.15rem blue)', borderRadius: '9999px' }} /> )}
+              {contribs.map(c => <Image key={c} src={c} alt="contrib image" width={40} height={40} style={{ filter: 'drop-shadow(0 0 0.15rem blue)', borderRadius: '9999px' }} /> )}
             </div>
           </div>
           <div className={`${styles.F} ${styles.fourteen}`}>
