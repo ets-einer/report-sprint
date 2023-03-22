@@ -20,11 +20,24 @@
   font-family: var(--font-mono);
 }
 
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 .SprintReport {
-  text-align: left;
-  width: 80vw;
   font-weight: 400;
   font-size: 24px;
+}
+
+.NotSelectedSprintReport {
+  opacity: 50%;
+  cursor: pointer;
+  transition-duration: 100ms;
+}
+
+.NotSelectedSprintReport:hover {
+  opacity: 100%;
 }
 
 .description a {
@@ -93,6 +106,21 @@
   'e e f g'
   'h i j g';
   height: 80vh;
+  animation: fadein 1s;
+
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, auto));
+  gap: 1rem;
+}
+
+.grid2 {
+  width: 80vw;
+  grid-template-areas: 
+  'a b c d'
+  'e e f g'
+  'h i j g';
+  height: 80vh;
+  animation: fadein 1s;
 
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
