@@ -12,7 +12,6 @@
  (tava implementando as áreas dinamicas no primeiro painel de admin)
 - Página /account: bastante a falar no futuro!
 
-# TESTAR UMA VEZ DO ZERO ANTES O VSDIA N ESQUEÇA 
 [x] VSDIA - Interatividade de drag and drop está praticamente 100% funcional (no front-end), mas o sync com o servidor ainda tá muito instável e cheio de bugs x-x
 
 Prompt bonitinho para criar novo vsdia no projeto.
