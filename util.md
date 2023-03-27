@@ -9,6 +9,7 @@
 [x] Common -
 - Botão do usuário na navbar: diferente pra admin etc.
 - Painel de admin: barrado pelo gitpod, mas dia 1 tá de volta!
+ (tava implementando as áreas dinamicas no primeiro painel de admin)
 - Página /account: bastante a falar no futuro!
 
 # TESTAR UMA VEZ DO ZERO ANTES O VSDIA N ESQUEÇA 
