@@ -22,4 +22,9 @@ Possível comentar sobre estarmos flagando os projetos como deletados ao invés 
 
 [x] Borum - ...
 
-[x] Planner - ...
+[x] Planner - 
+Essas duas semanas foram focadas em terminar as funções do kanban e alguns bug fixes necessarios para continuar para a proxima etapa. Tambem esta sendo feito a POC da agenda, para adiantar trabalho.
+
+É possivel criar, excluir e exibir os cards
+
+Componentizacao do CHAT (componentes)
