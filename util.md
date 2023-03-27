@@ -20,7 +20,9 @@ As mudanças de card individual parecem todas funcionarem pelo menos.
 
 Possível comentar sobre estarmos flagando os projetos como deletados ao invés de realmente deletando, e as vantagens disso - Mostrar como se deleta também.
 
-[x] Borum - ...
+[x] Borum - Pegamos essas duas últimas semanas para focar em bug-fixes do que já estava feito e adicionar features que ficamos devemos nas sprints anteriores, como o editor em markdown e o upload de arquivos. Parte de comentários e matérias já estão sendo feitas também.
+
+No momento é possivel a criação de aulas com arquivos, deletar e atualizar elas por parte dos instrutores e visualização delas por parte dos usuários(alunos ETS).
 
 [x] Planner - 
 Essas duas semanas foram focadas em terminar as funções do kanban e alguns bug fixes necessarios para continuar para a proxima etapa. Tambem esta sendo feito a POC da agenda, para adiantar trabalho.
