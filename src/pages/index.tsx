@@ -86,12 +86,15 @@ function SprintTwo() {
   return (
     <div className={styles.grid2}>
       <div className={`${styles.thirteen} ${styles.A}`}>
-        <h1 className={inter.className}>+500 <Image src="/gh.svg" alt="Gh logo" width={30} height={30} /></h1>
-        <h3 className={inter.className}>Contribuições em 10 repositórios</h3>
+        <h1 className={inter.className} style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
+          <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" style={{ filter: 'drop-shadow(0 0 0.3rem blue)' }} alt="Ts logo" width={30} height={30} />
+          <span>+15k</span> 
+          <Image src="/gh.svg" alt="Gh logo" width={30} height={30} />
+        </h1>
+        <h3 className={inter.className}>Linhas de código aprovadas por review para produção</h3>
       </div>
-      <div className={`${styles.thirteen} ${styles.B}`}>
-        <Image src="vitest.svg" alt="vitest logo" style={{ filter: 'drop-shadow(0 0 0.5rem yellow)' }} width={50} height={50} />
-        <h1 className={inter.className}>Sistema de testes e controle de qualidade com Integração Contínua</h1>
+      <div className={`${styles.F} ${styles.fourteen}`}>
+        <Image src="einer-only.svg" alt="Einer" width={325} height={175} />
       </div>
       <div className={`${styles.thirteen} ${styles.C}`}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '2rem', padding: '1rem' }}>
@@ -101,34 +104,35 @@ function SprintTwo() {
         <h1 className={inter.className}>EWCL</h1>
       </div>
       <div className={`${styles.thirteen} ${styles.D}`}>
-        <Image src="folders.svg" alt="lock icon" width={45} height={45} />
-        <h1 className={inter.className}>Armazenamento, compressão e otimização de arquivos</h1>
+        <Image src="zap.svg" alt="zap icon" width={45} height={45} />
+        <h1 className={inter.className}>Interações com feedback em tempo real</h1>
       </div>
       <div className={`${styles.thirteen} ${styles.E}`}>
-        <h2 className={`${inter.className}`} style={{ marginRight: '3rem' }}>
-          Contribuidores
-        </h2>
-        <div style={{ display: 'flex', gap: '.5rem', flexWrap: 'wrap', maxWidth: '60%' }}>
-          {contribs.map(c => <Image key={c} src={c} alt="contrib image" width={40} height={40} style={{ filter: 'drop-shadow(0 0 0.15rem blue)', borderRadius: '9999px' }} />)}
+        <h1 className={`${inter.className}`} style={{ marginRight: '2rem', textAlign: 'center' }}>
+          Plataforma de deploy
+        </h1>
+        <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center', maxWidth: '60%', marginLeft: '4rem' }}>
+          <Image src="/gh.svg" alt="Gh logo" width={60} height={60} />
+          <Image src="/docker.png" alt="docker logo" width={200} height={110} style={{ filter: 'drop-shadow(0 0 0.15rem blue)' }} />
+          <Image src="/caprover.png" alt="caprover logo" width={75} height={75} style={{ filter: 'drop-shadow(0 0 0.15rem orange)' }} />
         </div>
       </div>
-      <div className={`${styles.F} ${styles.fourteen}`}>
-        <Image src="einer-only.svg" alt="Einer" width={325} height={175} />
+      <div className={`${styles.thirteen} ${styles.B2}`}>
+        <Image src="brush.svg" alt="brush icon" width={45} height={45} />
+        <br />
+        <h1 className={inter.className}>Personalização de perfil</h1>
       </div>
       <div className={`${styles.thirteen} ${styles.G}`}>
         <Image src="prototype.svg" alt="rust icon" width={350} height={250} style={{ filter: 'drop-shadow(0 0 0.1rem white)', paddingBottom: '1rem' }} />
-        <h1 className={inter.className}>Prototipagem do App</h1>
+        <h1 className={inter.className}>Painel de Administração</h1>
       </div>
       <div className={`${styles.thirteen} ${styles.H}`}>
-        <Image src="terminal.svg" alt="terminal icon" width={45} height={45} />
-        <h1 className={inter.className}>Serviço de Log tracking centralizado</h1>
+        <Image src="send.svg" alt="terminal icon" width={45} height={45} />
+        <h1 className={inter.className}>Serviço de notificações e mailing</h1>
       </div>
       <div className={`${styles.thirteen} ${styles.I}`}>
-        <div>
-          <Image src="rust.svg" alt="rust icon" width={65} height={65} />
-          <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" style={{ filter: 'drop-shadow(0 0 0.3rem blue)' }} alt="Ts logo" width={45} height={45} />
-        </div>
-        <h1 className={inter.className}>Einer Toolchain + SDKs para desenvolvedores</h1>
+        <Image src="file-text.svg" alt="file text icon" width={50} height={50} />
+        <h1 className={inter.className}>Documentação técnica e para usuários</h1>
       </div>
       <div className={`${styles.thirteen} ${styles.J}`}>
         <div>
@@ -136,7 +140,7 @@ function SprintTwo() {
           <Image src="planner.svg" alt="planner icon" width={45} height={45} style={{ filter: 'drop-shadow(0 0 0.3rem dodgerblue)' }} />
           <Image src="borum.svg" alt="borum icon" width={45} height={45} style={{ filter: 'drop-shadow(0 0 0.3rem green)' }} />
         </div>
-        <h1 className={inter.className}>Versão beta em breve</h1>
+        <h1 className={inter.className}>Início dos testes <span style={{ filter: 'drop-shadow(0 0 0.3rem dodgerblue)', fontSize: '1.5rem' }}>Versão Beta</span></h1>
       </div>
     </div>
   )

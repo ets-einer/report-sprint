@@ -116,9 +116,9 @@
 .grid2 {
   width: 80vw;
   grid-template-areas: 
-  'a b c d'
-  'e e f g'
-  'h i j g';
+  'a f j d'
+  'g c e e'
+  'g i h b';
   height: 80vh;
   animation: fadein 1s;
 
@@ -145,6 +145,14 @@
   box-sizing: border-box;
   font-size: .8rem;
   text-align: center;
+}
+.B2{
+  grid-area: b;
+  box-sizing: border-box;
+  font-size: .8rem;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
 }
 .C{
   grid-area: c;
