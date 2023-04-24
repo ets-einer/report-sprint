@@ -123,7 +123,7 @@ function SprintTwo() {
         <h1 className={inter.className}>Personalização de perfil</h1>
       </div>
       <div className={`${styles.thirteen} ${styles.G}`}>
-        <Image src="prototype.svg" alt="rust icon" width={350} height={250} style={{ filter: 'drop-shadow(0 0 0.1rem white)', paddingBottom: '1rem' }} />
+        <Image src="admin.svg" alt="rust icon" width={350} height={250} style={{ filter: 'drop-shadow(0 0 0.1rem white)', paddingBottom: '1rem' }} />
         <h1 className={inter.className}>Painel de Administração</h1>
       </div>
       <div className={`${styles.thirteen} ${styles.H}`}>
