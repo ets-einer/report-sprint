@@ -88,7 +88,7 @@ function SprintTwo() {
       <div className={`${styles.thirteen} ${styles.A}`}>
         <h1 className={inter.className} style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
           <Image src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" style={{ filter: 'drop-shadow(0 0 0.3rem blue)' }} alt="Ts logo" width={30} height={30} />
-          <span>+15k</span> 
+          <span>+18k</span> 
           <Image src="/gh.svg" alt="Gh logo" width={30} height={30} />
         </h1>
         <h3 className={inter.className}>Linhas de código aprovadas por review para produção</h3>
